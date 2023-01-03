@@ -35,7 +35,7 @@ app.post('/profile', verifytoken, (req, resp) => {
     })
 })
 
-// FORMAT OF TOKEN
+// FORMAT OF TOKEN 
 // Authorization: Bearer <access_token>
 
 // Verify Token
